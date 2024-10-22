@@ -15,3 +15,11 @@ h1 {
 h2 {
   font-size: 20px;
 }
+
+span {
+  color: red;
+}
+
+.correct span {
+  color: rgb(0, 157, 8);
+}
