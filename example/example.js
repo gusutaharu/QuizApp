@@ -5,9 +5,12 @@
 
     const section = document.createElement('section');
     const h2 = document.createElement('h2');
+    const ul = document.createElement('ul');
     h2.textContent = quiz[0];
 
+    
     section.appendChild(h2);
+    section.appendChild(ul);
     main.appendChild(section);
   }
 
