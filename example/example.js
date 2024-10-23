@@ -4,7 +4,10 @@
     const main = document.querySelector('main');
 
     const section = document.createElement('section');
+    const h2 = document.createElement('h2');
+    h2.textContent = quiz[0];
 
+    section.appendChild(h2);
     main.appendChild(section);
   }
 
