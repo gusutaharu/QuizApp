@@ -10,6 +10,13 @@
     const ul = document.createElement('ul');
     const li0 = document.createElement('li');
     li0.textContent = quiz[1];
+    li0.addEventListener('click',()=>{
+      if (quiz[4] === 0){
+        li0.classList.add('correct')
+      } else {
+        li0.classList.add('wrong')
+      }
+    });
     const li1 = document.createElement('li');
     li1.textContent = quiz[2];
     const li2 = document.createElement('li');
