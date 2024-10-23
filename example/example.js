@@ -45,7 +45,13 @@
     main.appendChild(section);
   }
 
-  const quiz = ['1の正解は？', '選択肢 A', '選択肢 B', '選択肢 C', 0];
+  const quizzers = [
+    ['1の正解は？', '選択肢 A', '選択肢 B', '選択肢 C', 0],
+    ['1の正解は？', '選択肢 A', '選択肢 B', '選択肢 C', 1],
+    ['1の正解は？', '選択肢 A', '選択肢 B', '選択肢 C', 2],
+  ]
+  render(quizzers[0]);
+  render(quizzers[1]);
+  render(quizzers[2]);
 
-  render(quiz);
 }
